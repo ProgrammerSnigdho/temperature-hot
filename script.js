@@ -11,7 +11,6 @@ function displayWeather(weather) {
     document.getElementById('weatherCity').innerHTML = weather.location.name;
     document.getElementById('weatherConditionImg').src = weather.current.condition.icon;
     document.getElementById('weatherConditionText').innerText = weather.current.condition.text;
-    console.log(weather.current.condition);
 }
 
 document.getElementById('search').addEventListener('click', ()=>{

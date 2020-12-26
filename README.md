@@ -1,2 +1,1 @@
 # temperature-hot
-# temperature-hot
